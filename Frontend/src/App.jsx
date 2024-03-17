@@ -9,6 +9,7 @@ function App() {
   console.log("get ready for the memorial branch")
 console.log('checking if conflict creates or not');
 console.log("again im merging to the main branch ");
+console.log("edit in home feature");
   useEffect(()=>{
     axios.get('/api/jokes')
     .then((response)=>{
