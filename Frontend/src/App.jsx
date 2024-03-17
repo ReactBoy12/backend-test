@@ -6,6 +6,7 @@ import axios from 'axios'
 
 function App() {
   const [product, setProduct] = useState([]);
+  console.log("get ready for the memorial branch")
 
   useEffect(()=>{
     axios.get('/api/jokes')
