@@ -8,6 +8,7 @@ function App() {
   const [product, setProduct] = useState([]);
   console.log("get ready for the memorial branch")
 console.log("in main branch edited the code and further working");
+console.log("again im merging to the main branch ")
   useEffect(()=>{
     axios.get('/api/jokes')
     .then((response)=>{
